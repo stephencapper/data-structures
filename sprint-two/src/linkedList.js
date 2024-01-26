@@ -91,4 +91,10 @@ var Node = function(value) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
+ //addToTail's Time complexity:  Should be O(1) because no loops
+
+ //removeHead's Time complexity: Should be O(1) as well because of the same reasons
+
+ //contains's Time complexity: O(n) where n is length of list because we have one while loop that we are using to check over our target value within the list.
+
  */
